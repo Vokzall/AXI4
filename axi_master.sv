@@ -1,5 +1,4 @@
-`include "defines.sv"
-`include "typedefs.sv"
+`include "axi_header.svh"
 
 module axi_master(
     axi_if.master axi,

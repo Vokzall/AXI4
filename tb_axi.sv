@@ -1,6 +1,5 @@
 `timescale 1ns/1ps
-`include "defines.sv"
-`include "typedefs.sv"
+`include "axi_header.svh"
 
 module tb_axi;
     logic clk;

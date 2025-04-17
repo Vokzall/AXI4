@@ -1,5 +1,4 @@
-`include "defines.sv"
-`include "typedefs.sv"
+
 
 interface axi_if(input logic ACLK, ARESETn);
     import axi_typedefs::*;
